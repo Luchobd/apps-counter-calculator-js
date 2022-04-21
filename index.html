@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>practica de input</title>
+  </head>
+  <body>
+    <h1>Apps Calculos Matematicos y Contador</h1>
+    <main class="container">
+      <!--  Tags of the Math Operator -->
+      <h2>Math Operations Calculator</h2>
+      <div class="calcText" id="textResult">0</div>
+      <form action="" class="form__container">
+        <input type="text" id="valueOne" placeholder="First Value" />
+        <input type="text" id="valueTwo" placeholder="Second Value" />
+      </form>
+
+      <div class="container__button">
+        <button type="button" class="button__action" id="sumar">Sumar</button>
+        <button type="button" class="button__action" id="restar">Restar</button>
+        <button type="button" class="button__action" id="multiplicar">
+          Multiplicar
+        </button>
+        <button type="button" class="button__action" id="dividir">
+          Dividir
+        </button>
+      </div>
+      <div>
+        <button type="button" class="button__action" id="reset">Reset</button>
+      </div>
+
+      <!-- Tags of the Click Counter -->
+      <div class="contaiener__counter">
+        <h2>Click Counter</h2>
+        <div class="counter" id="counter"></div>
+        <div class="container__button_counter">
+          <button type="button" class="button__action" id="decrease">
+            Decrease
+          </button>
+          <button type="button" class="button__action" id="resetCounter">
+            Reset
+          </button>
+          <button type="button" class="button__action" id="increase">
+            Increase
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

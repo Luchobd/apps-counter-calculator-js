@@ -1,0 +1,123 @@
+/* First Styles  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #00000090;
+  height: 10vh;
+}
+
+/* Styles of the Math Operator */
+
+.container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00000090;
+}
+
+.calcText,
+.counter {
+  min-width: 20rem;
+  height: 6rem;
+  border: 2px solid #00000090;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: #00000090;
+}
+
+.form__container {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50rem;
+  justify-content: center;
+}
+
+#valueOne,
+#valueTwo {
+  background-color: transparent;
+  outline: none;
+  border-radius: 1rem;
+  text-align: center;
+  width: 15rem;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+#valueOne {
+  margin-right: 2rem;
+}
+
+.container__button {
+  width: 30rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button__action {
+  color: #00000090;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#reset {
+  margin-top: 1rem;
+  width: 10rem;
+}
+
+/* Styles of the Counter */
+.contaiener__counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 35rem;
+}
+
+.counter {
+  height: 100px;
+  width: 50px;
+}
+
+.container__button_counter {
+  width: 35rem;
+  display: flex;
+  justify-content: space-around;
+}
